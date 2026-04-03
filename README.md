@@ -216,5 +216,3 @@ NEXT_PUBLIC_DATABASE_URL=postgresql://username:password@host:port/database
 ```
 
 ---
-
-**End of documentation** – any new developer can now clone, configure, and deploy the app confidently.
