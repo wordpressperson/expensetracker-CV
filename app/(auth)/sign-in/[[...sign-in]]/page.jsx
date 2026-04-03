@@ -1,10 +1,6 @@
 import { SignIn } from "@clerk/nextjs";
 
 export default function SignInPage() {
-  return <SignIn afterSignInUrl="/dashboard" />;
-}
-
-export default function Page() {
   return (
 
 <section className="bg-white">
@@ -75,7 +71,7 @@ export default function Page() {
           </p>
         </div>
 
-        <SignIn />
+        <SignIn afterSignInUrl="/dashboard" />;
       </div>
     </main>
   </div>
